@@ -28,7 +28,7 @@ Example : export MYSQL_HOST=wordpress-db.ct2g2qig2j27.ca-central-1.rds.amazonaws
 mysql -h wordpress-db.ct2g2qig2j27.ca-central-1.rds.amazonaws.com -P 3306 -u admin -p
 ```
 
-Create required Database, user and provide permisisons to newsly created user on schema we created.
+Create required Database, user and provide permisisons to newsly created user on schema we created..
 
 ```bash
 CREATE DATABASE wordpress;
