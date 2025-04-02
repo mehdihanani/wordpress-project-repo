@@ -14,10 +14,10 @@ sudo yum install -y mysql
 **Export mysql endpoint as MySQSL_HOST Variable**
 
 ```bash
-export MYSQL_HOST=<your-RDS-endpoint>
+export MYSQL_HOST=wordpress-db.ct2g2qig2j27.ca-central-1.rds.amazonaws.com
 ```
 
-Example : export MYSQL_HOST=yt-wordpress.cfpgnjehw330.ap-south-1.rds.amazonaws.com
+Example : export MYSQL_HOST=wordpress-db.ct2g2qig2j27.ca-central-1.rds.amazonaws.com
 
 
 **Now Connect to mysql to create required user users that we are going to use**
@@ -25,7 +25,7 @@ Example : export MYSQL_HOST=yt-wordpress.cfpgnjehw330.ap-south-1.rds.amazonaws.c
 *Connect to RDS using below command (Replace the host-info and user info)*
 
 ```bash
-mysql -h yt-wordpress.cfpgnjehw330.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+mysql -h wordpress-db.ct2g2qig2j27.ca-central-1.rds.amazonaws.com -P 3306 -u admin -p
 ```
 
 Create required Database, user and provide permisisons to newsly created user on schema we created.
@@ -138,3 +138,4 @@ sudo service httpd restart
 ```
 
 **Get your instance public IP and Paste it in browser, It should give you wordpress initial configuration page.** 
+📝 Prepared by EMH
