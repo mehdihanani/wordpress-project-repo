@@ -138,4 +138,5 @@ sudo service httpd restart
 ```
 
 **Get your instance public IP and Paste it in browser, It should give you wordpress initial configuration page.** 
+
 📝 Prepared by EMH
