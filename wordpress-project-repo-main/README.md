@@ -32,7 +32,7 @@ Create required Database, user and provide permisisons to newsly created user on
 
 ```bash
 CREATE DATABASE wordpress;
-CREATE USER 'wordpressuser' IDENTIFIED BY 'Avinash1234';
+CREATE USER 'wordpressuser' IDENTIFIED BY 'Hanani123.';
 GRANT ALL PRIVILEGES ON wordpress.* TO wordpressuser;
 FLUSH PRIVILEGES;
 Exit
